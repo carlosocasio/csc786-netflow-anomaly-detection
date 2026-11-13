@@ -27,8 +27,8 @@ from sklearn.metrics import roc_auc_score
 # Configuration: Data and Results Directories
 # ------------------------------------------------------
 BASE = Path(__file__).resolve().parents[2]
-DATA = BASE / "data" / "synthetic_7d"
-RESULTS = BASE / "results" / "synthetic_7d"
+DATA = BASE / "data" / "lab_6h"
+RESULTS = BASE / "results" / "lab_6h"
 
 RESULTS.mkdir(parents=True, exist_ok=True)
 
